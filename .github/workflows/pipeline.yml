@@ -59,7 +59,7 @@ jobs:
               icon_emoji: ':octocat:',
               attachments: [{
               color: 'good',
-              text: `Deployed to https://pokemon-pokedex-app.herokuapp.com/ by ${process.env.AS_AUTHOR} succeeded in ${process.env.AS_TOOK}`,
+              text: `Deployed successfully to https://pokemon-pokedex-app.herokuapp.com/ by ${process.env.AS_AUTHOR} succeeded in ${process.env.AS_TOOK}`,
               }]
             }
         env:
